@@ -25,6 +25,11 @@ and which fields changed, and the detail pane lines up before and after so a
 change reads like `free → team`. anything that isn't debezium still works,
 with json pretty printed and highlighted and plain text shown as is.
 
+it goes well with [connectwatch](https://github.com/Dem1241/connectwatch), for
+the connector writing those events, and
+[slotwatch](https://github.com/Dem1241/slotwatch), for the replication slot it
+reads from.
+
 ## try it
 
 ```sh
